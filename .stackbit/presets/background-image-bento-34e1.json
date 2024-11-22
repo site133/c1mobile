@@ -1,0 +1,25 @@
+{
+    "model": "backgroundImage",
+    "srcType": "sanity",
+    "srcProjectId": "xhokg2cc:production",
+    "presets": [
+        {
+            "label": "bento",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "footer"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "image": {
+                    "$$ref": "image-96318dd525af491020834103050e44a9c4f9d7c9-788x412-svg",
+                    "$$type": "__asset_model"
+                },
+                "opacity": 24
+            },
+            "thumbnail": "images/background-image-bento-34e1.png"
+        }
+    ]
+}
