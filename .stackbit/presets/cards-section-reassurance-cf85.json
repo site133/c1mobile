@@ -1,0 +1,81 @@
+{
+    "model": "cardsSection",
+    "srcType": "sanity",
+    "srcProjectId": "xhokg2cc:production",
+    "presets": [
+        {
+            "label": "Réassurance",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Bannière assurance"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "heading": "\"Qualité et Sérénité: Notre Appli Mobile.\"",
+                "body": "“Avec notre application, votre sécurité est notre priorité absolue. Nous comprenons l’importance de la fiabilité des annonces, c’est pourquoi nous vérifions minutieusement chaque professionnel pour vous offrir une expérience sans souci. Chaque annonce est soumise à un processus de vérification rigoureux, garantissant ainsi que vous accédez uniquement à des services de haute qualité. Vous pouvez donc utiliser notre application en toute confiance, “vous êtes entre de bonnes mains.”\n",
+                "items": [
+                    {
+                        "$$type": "card",
+                        "badge": null,
+                        "heading": "Vérification d'identité",
+                        "body": "Vérification minutieuse de l’identité des professionnels inscrits pour garantir une expérience sécurisée et fiable.\n",
+                        "cta": [],
+                        "image": {
+                            "$$type": "customImage",
+                            "image": {
+                                "$$ref": "image-8701f4dddbfad09de713728aedf3eb5499590fdf-120x120-svg",
+                                "$$type": "__asset_model"
+                            },
+                            "alt": "Identité vérifié "
+                        },
+                        "theme": null,
+                        "textAlign": "center",
+                        "hasBorder": true
+                    },
+                    {
+                        "$$type": "card",
+                        "badge": null,
+                        "heading": "Paiement sécurisé",
+                        "body": "La sécurité de vos paiements en ligne grâce au protocole SSL et au cryptage avancé, assurant la protection de vos données \n",
+                        "cta": [],
+                        "image": {
+                            "$$type": "customImage",
+                            "image": {
+                                "$$ref": "image-b4c1d9cf9dc49d49b97394bd697340ac3ced2891-120x120-svg",
+                                "$$type": "__asset_model"
+                            },
+                            "alt": "Sécurisé payement"
+                        },
+                        "theme": null,
+                        "textAlign": "center",
+                        "hasBorder": true
+                    },
+                    {
+                        "$$type": "card",
+                        "badge": null,
+                        "heading": "Transaction sécurisée",
+                        "body": "Votre argent est en sécurité dans votre porte-monnaie jusqu’à la fin de la prestation, assurant une transaction sécurisée.\n",
+                        "cta": [],
+                        "image": {
+                            "$$type": "customImage",
+                            "image": {
+                                "$$ref": "image-cfbeeee7f4b98b244a89e7050325a54ba24000e1-120x120-svg",
+                                "$$type": "__asset_model"
+                            },
+                            "alt": "Transaction sécurisée"
+                        },
+                        "theme": null,
+                        "textAlign": "center",
+                        "hasBorder": true
+                    }
+                ],
+                "theme": "light",
+                "backgroundImage": null,
+                "width": "full",
+                "columns": "three"
+            }
+        }
+    ]
+}
