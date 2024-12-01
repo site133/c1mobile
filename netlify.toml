@@ -1,10 +1,2 @@
 [dev]
   targetPort = 3000
-
-  [build]
-  command = "npm run build"
-  publish = "build"
-
-[[plugins]]
-  package = "netlify-plugin-no-more-404"
-
