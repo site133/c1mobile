@@ -3,10 +3,3 @@
 
   [[plugins]]
 package = "netlify-plugin-amp-server-side-rendering"
-
-[[redirects]]
-  from = "/*"
-  to = "https://c1euro.com/:splat"
-  status = 301
-  force = true
-
