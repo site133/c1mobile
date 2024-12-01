@@ -24,3 +24,19 @@ export default defineConfig({
         port: 3000
     }
 });
+
+export function get() {
+  const robotsContent = `
+  User-agent: *
+  Allow: /
+  
+  Sitemap: https://c1euro.com/sitemap.xml
+  `;
+  
+  return new Response(robotsContent, {
+    headers: {
+      "Content-Type": "text/plain",
+    },
+  });
+}
+
