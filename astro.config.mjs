@@ -28,7 +28,8 @@ export default defineConfig({
 export function get() {
   const robotsContent = `
   User-agent: *
-  Allow: /
+  Disallow: /admin/
+  Disallow: /preview/
   
   Sitemap: https://c1euro.com/sitemap.xml
   `;
