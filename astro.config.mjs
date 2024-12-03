@@ -6,7 +6,7 @@ import { sanityConfig } from './src/utils/sanity-client';
 // https://astro.build/config
 export default defineConfig({
      site: 'https://c1euro.com',
-    image: {
+     image: {
         domains: ['cdn.sanity.io']
     },
     integrations: [
