@@ -3,6 +3,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://c1euro.com/sitemap.xml
-
-# Interdire l'accès au sous-domaine Netlify
-Host: https://c1euro.com
