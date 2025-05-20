@@ -1,6 +1,2 @@
-[[redirects]]
-  from = "/*"
-  to = "https://link.c1euro.fr"
-  status = 301
-  conditions = { Context = "production" }
+/*        https://link.c1euro.fr  301
 
